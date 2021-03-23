@@ -31,7 +31,7 @@ var result = sentiment.analyze('Sometime you have to get rid of everything');
 The result of the sentiment analysis will return an object with the following properties:
 
 - <b>Score</b>: Score calculated by adding the sentiment values of recognized words.
-- *Comparative*: Comparative score of the input string.
+- <b>Comparative</b>: Comparative score of the input string.
 - <b>Calculation</b>: An array of words that have a negative or positive valence with their respective AFINN score.
 - <b>Token</b>: All the tokens like words or emojis found in the input string.
 - <b>Words</b>: List of words from input string that were found in AFINN list.
